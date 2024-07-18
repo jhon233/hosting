@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h2>Formulario de Inscripción</h2>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="usuario">Usuario</label></td>
+                    <td><input type="text" id="usuario" name="usuario" required></td>
+                    <td><label for="repetir-contrasena">Repetir Contraseña</label></td>
+                    <td><input type="password" id="repetir-contrasena" name="repetir-contrasena" required></td>
+                </tr>
+                <tr>
+                    <td><label for="contrasena">Contraseña</label></td>
+                    <td><input type="password" id="contrasena" name="contrasena" required></td>
+                </tr>
+                <tr>
+                    <td><label for="nombre">Nombre</label></td>
+                    <td><input type="text" id="nombre" name="nombre" required></td>
+                    <td><label for="apellido">Apellido</label></td>
+                    <td><input type="text" id="apellido" name="apellido" required></td>
+                </tr>
+                <tr>
+                    <td><label for="edad">Edad</label></td>
+                    <td><input type="number" id="edad" name="edad" required></td>
+                    <td><label for="pais">País</label></td>
+                    <td>
+                        <select id="pais" name="pais" required>
+                            <option value="Perú">Perú</option>
+                            <!-- Add other countries as needed -->
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mail">Mail</label></td>
+                    <td><input type="email" id="mail" name="mail" required></td>
+                </tr>
+                <tr>
+                    <td><label>Sexo</label></td>
+                    <td>
+                        <input type="radio" id="masculino" name="sexo" value="Masculino" required>
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" id="femenino" name="sexo" value="Femenino" required>
+                        <label for="femenino">Femenino</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Tipo de Documento</label></td>
+                    <td>
+                        <input type="radio" id="dni" name="tipo_documento" value="DNI" required>
+                        <label for="dni">DNI</label>
+                        <input type="radio" id="ci" name="tipo_documento" value="CI" required>
+                        <label for="ci">CI</label>
+                        <input type="radio" id="le" name="tipo_documento" value="LE" required>
+                        <label for="le">LE</label>
+                    </td>
+                    <td><label for="numero-documento">Nº de Documento</label></td>
+                    <td><input type="text" id="numero-documento" name="numero_documento" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fuma">Fuma</label></td>
+                    <td><input type="checkbox" id="fuma" name="fuma"></td>
+                </tr>
+                <tr class="form-buttons">
+                    <td colspan="2"><button type="submit">Enviar Datos</button></td>
+                    <td colspan="2"><button type="reset">Borrar Información</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

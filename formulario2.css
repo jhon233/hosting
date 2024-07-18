@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+body {
+    background: url('images.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.background {
+    background: url('image.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-container h2 {
+    color: #00bfff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-container label {
+    display: block;
+    color: #00bfff;
+    margin-bottom: 5px;
+}
+
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+.contact-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #00bfff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-container input[type="submit"]:hover {
+    background-color: #009acd;
+}

@@ -1,0 +1,19 @@
+article {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    animation-duration: 3s;
+    animation-name: movimiento;
+}
+
+@keyframes movimiento {
+    from {
+        margin-left: 100px;
+        width: 300px;
+        background-color: aquamarine;
+    }
+    to {
+        
+    }
+}

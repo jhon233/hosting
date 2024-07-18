@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #444;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+article h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.fuego {
+    background-color: #ffe6e6;
+}
+
+.fuego h2, .fuego .condensada {
+    color: #ff4500; /* rojo anaranjado */
+}
+
+.aire {
+    background-color: #e6f7ff;
+}
+
+.aire h2, .aire .condensada {
+    color: #1e90ff; /* celeste */
+}
+
+.agua {
+    background-color: #e6ffee;
+}
+
+.agua h2, .agua .condensada {
+    color: #0000ff; /* azul */
+}
+
+.tierra {
+    background-color: #f0e6ff;
+}
+
+.tierra h2, .tierra .condensada {
+    color: #ff8c00; /* naranja */
+}
+
+.nombre {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    padding-top: 10px;
+}

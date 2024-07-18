@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header .navbar-brand img {
+    max-width: 120px;
+}
+
+.hero {
+    background-image: url('TRABAJO HAMBURGUEZA/assets/fondo-pantalla-hamburguesas-palabras-hamburguesa_902338-24385.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.menu {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.footer {
+    background: url('TRABAJO HAMBURGUEZA/assets/Slidesdocs—letrero-de-hamburguesa-de-neón_d9e8d4a978.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 700px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.footer-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-info p, .footer-social a {
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-copy {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
